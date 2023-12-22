@@ -16,9 +16,11 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         int arr [] = new int [] {17,211,4,6};
-        InsertionSort sort = new InsertionSort();
+        BubbleSort sort = new BubbleSort();
         arr = sort.sort(arr);
-
+        for(int i : arr){
+            System.out.print(i+" ");
+        }
     }
     
 }

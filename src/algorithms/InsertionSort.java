@@ -19,10 +19,6 @@ public class InsertionSort {
             } 
             array[j+1] = key;
         }
-        
-        for(int i : array){
-            System.out.print(i+" ");
-        }
         return array;
     }
 }
